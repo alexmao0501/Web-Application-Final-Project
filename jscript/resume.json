@@ -1,0 +1,95 @@
+{
+    "header": {
+        "name": {
+            "first": "Chih-Hsiang(Alex)",
+            "last": "Mao"
+        },
+        "contact": {
+            "email": "alexmao@bu.edu",
+            "phone": "917-275-4987"
+        }
+    },
+    "education": [
+        {
+            "name": "Boston University",
+            "degree": "Masters of Science in Computer Science",
+            "location": "Boston, MA",
+            "duration": "Jan. 2022 - Dec 2022",
+            "courses": [
+                "Analysis of Algorithms",
+                "Computer Networks",
+                "Computer Architecture",
+                "Operating Systems",
+                "Web Application Development",
+                "Software Engineering",
+                "Computer Language Theory"
+            ]
+        },
+        {
+            "name": "National Tsing Hua University",
+            "degree": "Bachelor of Science in Quantitative Finance & Econimics",
+            "location": "Taipei, TW",
+            "duration": "Sep 2013 - May 2017",
+            "courses": [
+                "Mathematical Statistics",
+                "Financial Modeling",
+                "Corporate Finance",
+                "Microeconomics",
+                "Macroeconomics",
+                "Econometrics",
+                "Management",
+                "Advanced Calculus"
+            ]
+        }
+    ],
+    "skills": {
+        "languages": [
+            "Java",
+            "C++",
+            "C",
+            "C#",
+            "Python",
+            "JavaScript"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Amazon Web Services",
+            "Google Cloud",
+            "MS Azure"
+        ]
+    },
+    "experience": [
+        {
+            "title": "Finance Manager",
+            "loc": "Crown Plaza New York",
+            "duration": "Oct 2019 - 2020",
+            "desc": [
+                "Performed financial accounting analysis, financial report (B/S, F/S, I/S) and reported Executive team",
+                "Built yearly budget plan to analyze income, cost to initiate cost-saving projects and controlled F&B planning"
+
+            ]
+        },
+        {
+            "title": "Portfolio Manager",
+            "loc": "JP Morgan",
+            "duration": "July 2017 - 2019",
+            "desc": [
+                "Conducted onshore/offshore portfolio analysis for 60+ pooled/segregated equity and bond funds",
+                "Built quantitative models to analyze risk and return characteristics of equity, fixed income portfolios",
+                "Generated markets insight presentations, reviews for meetings with institutional government clients"
+
+            ]
+        },
+        {
+            "title": "FICC Trading Intern",
+            "loc": "Citibank",
+            "duration": "July 2016 - 2017",
+            "desc": [
+                "Coordinated with sales & trading team on trade execution, account opening, settlement & allocation",
+                "Supervised daily financial reporting and implemented PNL metrics into the daily trading summary"
+
+            ]
+        }
+    ]
+}
