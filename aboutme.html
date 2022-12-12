@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BU MET CS601 - Final Project">
+    <meta name="author" content="Alex Mao">
+
+    <title>Alex Mao | About Me</title>
+
+    <link type="text/css" rel="stylesheet" href="css/web.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HTML5 structure-->
+
+    <header>
+        <h1>Welcome to my Planet</h1>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Biography</a> 
+            <a href="aboutme.html">About Me</a> 
+            <a href="hobby.html">Hobby</a>
+            <a href="myresume.html">Resume</a>
+            <a href="contactme.html">Contact</a>
+            <a href="countdown.html">2023 Countdown</a>
+        </nav>
+    </header>
+    <div class="page-title">About Me</div>
+
+    <section class="profile_card">
+        <div class="container_profile_card">
+            <div class="card">
+                <div class="card_left">
+                    <img src="images/profile.jpg" alt="profile">
+                    <div class="card_hidden">
+                        <div class="name">Alex Mao</div>
+                        <div class="title">Full-time <span> CS Student </span></div>
+                        <hr>
+                        <div class="description">Click on links to the right to learn more about me!</div>
+                    </div>
+                </div>
+
+                
+                <div class="card_right">
+                    <div class="right_wrapper">
+                    
+                    <div class="row col-12 name">Alex Mao</div>
+                    <ul>
+                        <div class="row">
+                            <li class="col-3"><img src="images/linkedin_30.png" alt="LinkedIn logo"></li>
+                            <li class="col-9 link"><a href="https://www.linkedin.com/in/alexchmao/" target="_blank">LinkedIn</a></li>
+                        </div>
+                        <div class="row">
+                            <li class="col-3"><img src="images/github_30.png" alt="GitHub logo"></li>
+                            <li class="col-9 link"><a href="https://github.com/alexmao0501" target="_blank">GitHub</a></li>
+                        </div>
+                        <div class="row">
+                            <li class="col-3"><img src="images/resume_30.png" alt="Resume logo"></li>
+                            <li class="col-9 link"><a href="https://drive.google.com/file/d/1EiB9pUvccoDSfob1Z0G6yQaZ60QHVdbI/view?usp=sharing/" target="_blank">Resume</a></li>
+                        </div>
+                    </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hint">(hover mouse over the card!)</div>
+    </section>
+    <main>
+
+        <section class="intro">
+            <h4>
+                Hey, this is my homepage, so I have to say something about myself. Sometimes it is hard to introduce yourself because you know yourself so well that you do not know where to start with. 
+                Let me give a try to see what kind of image you have about me through my self-description. I hope that my impression about myself and your impression about me are not so different. Here it goes my <a href="index.html">biography</a>.
+                If you haven't read it yet, maybe you should read that first! <a href="index.html">(Biography Page)</a>
+            </h4>
+        </section>
+
+        <!-- List -->
+        <section class="hobbies">
+            <h2>My Hobbies:</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Reading</li>
+                <li>Movies</li>
+                <li>Traveling</li>
+                <li>Wildlife</li>
+            </ul>
+
+            <div id="app">
+                <button @mouseover="hovered = true" @mouseleave="hovered = false">
+                  Hover to Show Surprise!!
+                </button>
+                <p v-if="hovered"><img src="images/00.jpeg" alt="cat" style="width: 200px">
+                    <img src="images/01.jpeg" alt="cat" style="width: 200px"><img src="images/02.jpeg" alt="cat" style="width: 200px">
+                    <img src="images/03.jpeg" alt="cat" style="width: 200px"><img src="images/04.jpeg" alt="cat" style="width: 200px"></p>
+            </div>
+            <script src="jscript/app.js"></script>
+
+
+            <img src="images/sunlight.jpg" alt="sun" style="width:100%;">
+
+  
+
+   
+        </section>
+
+
+
+
+    </main>
+    
+    <footer>
+        <details>
+            <summary>Copyright &copy; 2022 | Alex Mao</summary>
+        </details>
+    </footer>
+
+
+</body>
+
+</html>
+
+
