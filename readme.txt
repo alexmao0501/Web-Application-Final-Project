@@ -12,7 +12,7 @@ My file structure:
 |-- images/
 |-- images2/
 |-- vid/
-|-- style/
+|-- css/
 	|-- style.css
 	|-- about.css
 	|-- macbook.css
